@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="studentcheck.css">
+  <title>Registration Form</title>
+</head>
+<body>
+    
+  <div id="container">
+    
+    <div class="form-wrap">
+      <h1>Check In </h1>
+      
+      <form action="studentcheckin.php" method="Post">
+        <div class="form-group">
+          <label for="first-name">Student name</label>
+          <input type="text" name="firstname" id="first-name">
+        </div>
+        <div class="form-group">
+          <label for="REG-NO">Reg No</label>
+          <input type="number" name="REG-NO" id="REG-NO">
+        </div>
+        <div class="form-group">
+          <label for="number">Room NO</label>
+          <input type="number" name="number" id="number">
+        </div>
+        <div class="form-group">
+            <label for="Department">Parent's Mobile Number</label>
+            <input type="text" name="Department" id="Department">
+          </div>
+    
+
+        <button type="submit" anme="save">check In</button>
+       
+
+
+      </form>
+      
+    </div>
+    
+    <footer>
+      <!-- <p> Powered by sakthi</p> -->
+    </footer>
+  </div>
+  <!-- Container Close -->
+</body>
+</html>

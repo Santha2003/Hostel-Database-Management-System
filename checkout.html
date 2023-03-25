@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="checkout.css">
+  <script src="checkout.js"> </script>
+  <title>Registration Form</title>
+</head>
+<body>
+    <!-- Container Start -->
+  <div id="container">
+    <!-- Form Wrap Start -->
+    <div class="form-wrap">
+      <h1>Check Out</h1>
+      <!-- <p>It's Free and Only takes a minute</p> -->
+      <!-- Form Start -->
+      <form action="checkout.php" method="Post">
+        <div class="form-group">
+          <label for="first-name">Student name</label>
+          <input type="text" name="firstname" id="first-name">
+        </div>
+        <div class="form-group">
+          <label for="REG-NO">Reg No</label>
+          <input type="number" name="Regno" id="REG-NO">
+        </div>
+        <div class="form-group">
+          <label for="number">Room NO</label>
+          <input type="number" name="number" id="number">
+        </div>
+        <div class="form-group">
+            <label for="Department">parent's Mobile No </label>
+            <input type="text" name="Department" id="Department">
+          </div>
+
+        <button type="submit" id="submit" name="save" onclick="decrement()">check Out</button>
+       
+
+
+      </form>
+      <!-- Form Close -->
+    </div>
+    <!-- Form Wrap Close -->
+    <footer>
+      <!-- <p> Powered by sakthi</p> -->
+    </footer>
+  </div>
+  <!-- Container Close -->
+</body>
+</html>

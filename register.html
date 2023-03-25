@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="registration.css">
+  <script src="registration.js"></script>
+  <title>Registration Form</title>
+</head>
+<body>
+    <!-- Container Start -->
+  <div id="container">
+    <!-- Form Wrap Start -->
+    <div class="form-wrap">
+      <h1>Registration Form</h1>
+      <p>It's Free and Only takes a minute</p>
+      <!-- Form Start -->
+      <form onsubmit="return validate()">
+        <div class="form-group">
+          <label for="first-name">Student name</label>
+          <input type="text" name="firstname" id="first-name">
+        </div>
+        <span id="name"></span>
+
+        <div class="form-group">
+          <label for="REG-NO">Regno</label>
+          <input type="text" name="REG-NO" id="REG-NO">
+        </div>
+        <span id="RegNo"></span>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email">
+        </div>
+        <span id="mail"></span>
+
+        <div class="form-group">
+            <label for="Department">Department</label>
+            <input type="text" name="Department" id="Department">
+          </div>
+          <span id="Dept"></span>
+
+        <div class="form-group">
+          <label for="password">Year</label>
+          <input type="text" name="YEAR" id="YEAR">
+        </div>
+        <span id="Year"></span>
+
+        <div class="form-group">
+            <label for="mnumber">Father's Name</label>
+            <input type="text" name="FATHERNAME" id="FATHERNAME">
+          </div>
+          <span id="father"></span>
+
+        <div class="form-group">
+            <label for="fname">Mother's Name</label>
+            <input type="text" name="MOTHERNAME" id="MOTHERNAME">
+          </div>
+          <span id="mother"></span>
+
+        <div class="form-group">
+            <label for="fnumber">Father's Number</label>
+            <input type="text" name="FATHERNUMBER" id="FATHERNUMBER">
+          </div>
+          <span id="fno"></span>
+
+          <div class="form-group">
+            <label for="fnumber">Mother's Number</label>
+            <input type="text" name="MOTHERNUMBER" id="MOTHERNUMBER">
+          </div>
+          <span id="mno"></span>
+
+          <div class="form-group">
+            <label>Gender</label>
+            <label class="container"><h6>Male</h6>
+              <input type="radio" name="radio" id="radio1">
+              <span class="checkmark"></span>
+            </label>
+            <label class="container"><h6>Female</h6>
+              <input type="radio" name="radio" id="radio2">
+              <span class="checkmark"></span>
+            </label>
+          </div>
+          <span id="Radio"></span>
+
+        <div class="form-group">
+          <label>Adress </label>
+          <textarea id="w3review" name="w3review" rows="4" cols="43"></textarea>
+        </div>
+        <span id="address"></span>
+
+        <div class="form-group">
+          <label for="city">city</label>
+          <input type="text" name="city" id="city">
+        </div>
+        <span id="City"></span>
+
+        <div class="form-group">
+          <label for="roomno">Room No</label>
+          <input type="text" name="roomno" id="roomno">
+        </div>
+        <span id="RoomNo"></span>
+
+        <button type="submit">Register</button>
+       
+
+
+      </form>
+      <!-- Form Close -->
+    </div>
+    <!-- Form Wrap Close -->
+    <footer>
+      <p> Powered by sakthi</p>
+    </footer>
+  </div>
+  <!-- Container Close -->
+</body>
+</html>

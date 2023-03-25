@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="rm.css">
+  <title>Room Allocation</title>
+</head>
+<body>
+    <div class="cont">
+      <div id="container">
+        <div class="form-wrap">
+          <h1>Room Allocation</h1>
+          <p>For Guest</p>
+          <form action="rm.php" method="Post">
+          
+            <div class="form-group">
+              <span id="name"></span>
+              <label for="username">Room Number</label> <input type="number" name="user" id="user" required
+              > <br>
+              <label>Guest 1</label> <input type="text" name="Student1" id="Student1" required> 
+              <label> Guest 2</label><input type="text" name="Student2" id="Student2"  >
+              <br>
+            </div>
+          
+            <button type="submit" button onclick="validateform()">SUBMIT</button>
+            <p class="bottom-text">
+              To Connected with us, login with your personal Info
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
